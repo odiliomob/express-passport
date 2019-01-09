@@ -90,6 +90,7 @@ app.get('/logout',
     res.redirect('/');
   });
 
+//A user must be logged in before accessing this page.
 app.get('/profile',
   require('connect-ensure-login').ensureLoggedIn(),
   function(req, res){
