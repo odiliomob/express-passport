@@ -4,7 +4,7 @@ var Strategy = require('passport-local').Strategy;
 var db = require('./db');
 
 
-const verify = function (username, password, cb) {
+ verify = function (username, password, cb) {
   db.users.findByUsername(username, function (err, user) {
     if (err) {
       return cb(err);
