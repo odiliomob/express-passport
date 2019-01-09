@@ -1,7 +1,7 @@
 {
-  "name": "express-4.x-local-example",
-  "version": "0.0.0",
-  "description": "Express 4.x app using Passport for authentication with username and password.",
+  "name": "express-passport",
+  "version": "0.0.1",
+  "description": "Express usando Passport para autenticação usando login e senha.",
   "keywords": [
     "example",
     "express",
@@ -9,23 +9,19 @@
   ],
   "author": "Jared Hanson",
   "license": "Unlicense",
-  "homepage": "https://github.com/passport/express-4.x-local-example",
   "repository": {
     "type": "git",
-    "url": "git://github.com/passport/express-4.x-local-example.git"
-  },
-  "bugs": {
-    "url": "https://github.com/passport/express-4.x-local-example/issues"
+    "url": "git://github.com/odiliomob/express-passport.git"
   },
   "dependencies": {
     "body-parser": "^1.13.3",
     "connect-ensure-login": "^0.1.1",
     "cookie-parser": "^1.3.5",
     "ejs": "^2.3.3",
-    "express": "^4.13.3",
-    "express-session": "^1.11.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "morgan": "^1.6.1",
-    "passport": "^0.2.2",
+    "passport": "^0.4.0",
     "passport-local": "^1.0.0"
   }
 }
