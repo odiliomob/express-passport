@@ -6,8 +6,8 @@
 
 
 ```bash
-$ git clone git@github.com:passport/express-4.x-local-example.git
-$ cd express-4.x-local-example
+$ git clone https://github.com/odiliomob/express-passport.git
+$ cd express-passport
 $ npm install
 ```
 
